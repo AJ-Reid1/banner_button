@@ -1,0 +1,11 @@
+var _this = this;
+/*
+Clicking on the specified symbol instance executes a function.
+*/
+_this.visit.on('click', function(){
+/*
+Loads the URL in a new browser window.
+*/
+window.open('http://www.adobe.com', '_blank');
+});
+
